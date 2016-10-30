@@ -1,0 +1,107 @@
+body {
+  background: rgb(9, 43, 64);
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+  height: 90vh;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glyphicon {
+  color: #B2DFDB;
+}
+
+.textbox {
+  text-align: center;
+}
+
+.randomArticle {
+  color: #B2DFDB;
+  font-size: 1.4em;
+}
+
+.randomArticle:hover {
+  text-decoration: none;
+  color: pink;
+  cursor: pointer;
+}
+
+.randomArticle:link {
+  text-decoration: none;
+  color: #B2DFDB;
+}
+
+form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+form .nice {
+  width: 300px;
+  border-radius: 10px;
+  border: 5px solid orange;
+  background: transparent;
+  color: white;
+  padding: 7px 15px;
+}
+
+form .nice:focus {
+  outline: none;
+}
+
+.button {
+  border-radius: 10px;
+  border: 5px solid orange;
+  padding: 7px 15px;
+  margin-left: 20px;
+  background: transparent;
+  color: #B2DFDB;
+}
+
+.button:hover {
+  background: #00897B;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.append {
+  color: black;
+}
+
+.append:hover {
+  text-decoration: none;
+}
+
+.appendsearch {
+  background: rgb(230, 230, 231);
+  margin: 20px 70px 20px 70px;
+  padding: 10px 20px;
+  color: black;
+  border-left: 4px solid rgb(9, 43, 64);
+  font-weight: 500;
+}
+
+.appendsearch h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.appendsearch p {
+  font-size: 15px;
+}
+
+.appendsearch:hover {
+  border-left: 4px solid orange;
+}
